@@ -16,3 +16,11 @@ class GuestBook:
         with open("./book.json", 'a') as file:
             data = { "Guests": self.guests }
             file.write(json.dumps(data,file))
+            
+            
+if __name__ == "__main__":
+	guestBook = GuestBook()
+	guestBook.add("Olya","Stuklova")
+    guestBook.add("Anya","Ivanova")
+	guestBook.remove("Anya","Ivanova")
+	guestBook.write_file()

@@ -1,10 +1,12 @@
 {
     "Guests": [
         {
-            "Guest_name": "Olya"
+            "Guest_name": "Olya",
+            "Guest_surname": "Stuklova"
         },
         {
-            "Guest_surname": "Stuklova"
-        }
+            "Guest_name": "Anna",
+            "Guest_surname": "Ivanova"
+        },
               ]
 }

@@ -12,7 +12,6 @@ class GuestBook:
                 self.guests.remove(guest)
 
     def write_file(self):
-
         import json
         with open("./book.json", 'a') as file:
             data = { "Guests": self.guests }

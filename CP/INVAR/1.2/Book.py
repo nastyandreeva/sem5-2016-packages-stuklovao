@@ -18,7 +18,7 @@ class Partisipant:
     """Запись в файл"""
     def Recorder(self):
         import json 
-        with open("./new_file.json", 'a') as file:
+        with open("./file.json", 'a') as file:
             json_data = { "all_participant": self.participants } 
             file.write(json.dumps(json_data, indent=4))
             
